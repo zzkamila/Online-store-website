@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин нижнего белья</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    
+</head>
+
+<body>
+    <header class="header c">
+        <div class="header_top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:87015115153">+7 (701) 511 5153</a>
+                    <a class="header__email" href="#">kamila.zhussupbayeva@gmail.com</a>
+                    <a class="header__btn" href="#bottom">Оформить заказ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header__logo">
+        <img src="img/logo2.png" alt="" width="350" height="350">
+    </div>
+    <div class="header__content-inner">
+        <nav class="menu">
+            <ul>
+                <li><a href="index2.html">О магазине</a></li>
+                <li><a href="index3.html">Каталог</a></li>
+                <li><a href="index4.html">Акции</a></li>
+                <li><a href="index5.html">Доставка</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="def">
+        <div class="title">~ LATOM LINGERIES ~</div>
+        Это интернет-магазин нижнего белья. Здесь вы найдете то белье, в котором будете чувствовать себя
+        максимально комфортно и уверенно, и которое подчеркнет вашу фигуру наилучшим образом.
+    </div>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__text">
+                            Белье - это не только про личный комфорт, но и про свободу, эстетику и красоту.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                            Подписаться на рассылку
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__text">
+                            Надев наше нижнее белье и сказав Латом, вы можете, исповедовшись, спокойно выходить во
+                            внешний
+                            мир.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                            Подписаться на рассылку
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal">
+        <form action="action_page.php">
+            <div class="form">
+                <h2>Подпишитесь на рассылку и будьте в курсе свежих спецпредложений</h2>
+                <p>Латом, дорогие дамы, и господа если вы читаете, все для вас</p>
+            </div>
+
+            <div class="form" style="background-color:white">
+                <input type="text" placeholder="Имя" name="name" required>
+                <input type="text" placeholder="Почта" name="mail" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> Я согласен на обработку персональных
+                    данных и с условиями подписки
+                </label>
+            </div>
+
+            <div class="form">
+                <input type="submit" value="Подписаться">
+            </div>
+        </form>
+    </div>
+
+    
+
+    <div class="order__fon">
+        <div class="order__box">
+            <section class="order">
+                <div class="container">
+                    <div class="order__inner">
+                        <div class="order__content">
+                            <div class="order__title-box">
+                                <div class="order__title">
+                                    Оформить заказ
+                                </div>
+                                <div class="order__text">
+                                    Вы также можете оформить заказ через телефон, почту и соц сети.
+                                </div>
+                            </div>
+                            <div class="order__box">
+                                <form>
+                                    <div class="order__box-inner">
+                                        <div class="order__box-left">
+                                            <label>
+                                                Email
+                                                <input type="text">
+                                            </label>
+                                            <label>
+                                                Контактный телефон
+                                                <input type="text">
+                                            </label>
+                                            <label>
+                                                ФИО
+                                                <input type="text">
+                                            </label>
+                                        </div>
+                                        <div class="order__box-right">
+                                            <label>
+                                                Выберите комплект
+                                                <select>
+                                                    <option>-</option>
+                                                    <option>Белый топ с кружевами</option>
+                                                    <option>Цветочный комплект</option>
+                                                    <option>Черный комплект</option>
+                                                    <option>Спортивный комплект</option>
+                                                </select>
+                                            </label>
+                                            <label>
+                                                Дополнительные детали
+                                                <textarea></textarea>
+                                            </label>
+                                            <button class="default-btn" type="submit">Заказать</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <a name="bottom"></a>
+
+    <section class="icons">
+        <div class="container container--icons">
+            <div class="border"></div>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+                <li><a href="https://wa.me/87015115153"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/latom_lingeries/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="border"></div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

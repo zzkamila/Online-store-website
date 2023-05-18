@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:87015115153">+7 (701) 511 5153</a>
+                    <a class="header__email" href="#">kamila.zhussupbayeva@gmail.com</a>
+                    <a class="header__btn" href="#">Оформить заказ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header__logo">
+        <a href="index.html"><img src="img/logo2.png" alt="" width="350" height="350"></a>
+    </div>
+
+    <style>
+        h1 {
+            margin-left: 60px;
+        }
+
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+            gap: 3px;
+            background-color: #cbacbc;
+            padding: 3px;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 60px;
+        }
+
+        .grid-container>div {
+            background-color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 15px;
+            letter-spacing: 0.3px;
+            padding: 5px;
+        }
+    </style>
+
+    <h1>Доставка</h1>
+
+    <div class="grid-container">
+        <div class="item1">Общая информация</div>
+        <div class="item2">
+            В нашем магазине возможны 2 варианта доставки:<br><br>
+            - курьерская служба; <br>
+            - самовывоз из наших магазинов.
+            <br> <br> <br> <br>
+            Режим работы службы доставки LATOM LINGERIES: <br><br>
+            - Будние дни: с 9:00-18:00<br>
+            - Суббота/воскресенье – выходной
+        </div>
+        <div class="item3">
+            Доставка по г. Алматы <br> <br>
+
+            Сроки по г. Алматы - 1-3 рабочих дня после оформления покупки.
+        </div>
+        <div class="item4">
+            Доставка для жителей других городов Казахстана <br> <br>
+
+            Сроки: 3-10 рабочих дней с момента оплаты (день отправки, выходные, праздничные дни не считаются). <br><br>
+
+            Доставка осуществляется согласно тарифам транспортной компании только при 100% оплате покупки.
+        </div>
+        <div class="item5">
+            Доставка осуществляется только при 100% оплате товара. <br> <br>
+
+            Курьер с товаром прибудет в будние дни с 9:00-18:00, предварительно связавшись с Вами, чтобы уточнить адрес
+            и согласовать удобное время встречи.  <br> <br>
+
+            Если при оформлении заказа Вы указали некорректный адрес и покупку нужно доставить по другому адресу, просим
+            сообщить новые данные менеджеру, который свяжется с Вами непосредственно после оформления покупки на сайте.
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="wrapper">
+        <div class="grid-container">
+            <div class="box1">
+                errdbsbs
+            </div>
+            <div class="box2">
+                <div class="box2__item">
+                    <div class="box2__item-title">
+                        Акция 1
+                    </div>
+                    <div class="box2__item-text">
+                        блаблабла
+                    </div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="box3__item">
+                    <div class="box3__item-title">
+                        Акция 2
+                    </div>
+                    <div class="box3__item-text">
+                        блаблабла
+                    </div>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="box4__item">
+                    <div class="box4__item-title">
+                        Акция 3
+                    </div>
+                    <div class="box4__item-text">
+                        блаблабла
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
